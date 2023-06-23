@@ -9,11 +9,8 @@ class Api::V1::AirlinesController < ApplicationController
     render json: AirlineSerializer.new(airline).serialized_json
   end
 
-  def create
-
-    private
-    def airline_params
-      params.require(:airline).permit(:name, :image_url)
-    end
+  private
+  def airline_params
+    params.require(:airline).permit(:name, :image_url)
   end
 end
