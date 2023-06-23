@@ -12,13 +12,14 @@ class Api::V1::AirlinesController < ApplicationController
   def create
     airline = Airline.new(airline_params)
     if airline.save
-      render json:AirlineSerializer.new(airline).serialized_json
+      render json: AirlineSerializer.new(airline).serialized_json
     else
-      render json: {error: airline.errors.messages}, status:
+      render json: { error: airline.errors.messages }, status:
     end
   end
 
   private
+
   def airline_params
     params.require(:airline).permit(:name, :image_url)
   end
