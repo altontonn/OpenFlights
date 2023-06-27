@@ -18,6 +18,15 @@ class Api::V1::AirlinesController < ApplicationController
     end
   end
 
+  def update
+    airline = Airline.find_by(slug: params[:slug])
+    if airline.update(airline_params)
+      render json: AirlineSerializer.new(airline).serialized_json
+    else
+      render json: { error: airline.errors.messages }, status:
+    end
+  end
+
   private
 
   def airline_params
