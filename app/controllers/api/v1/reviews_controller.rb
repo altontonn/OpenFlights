@@ -8,6 +8,15 @@ class Api::V1::ReviewsController < ApplicationController
     end
   end
 
+  def destroy
+    review = Review.find(params[:id])
+    if review.destroy
+      head :no_content
+    else
+      render json: { errors: review.errors.messages }, status:
+    end
+  end
+
   private
 
   def review_params
