@@ -43,6 +43,6 @@ class Api::V1::AirlinesController < ApplicationController
   end
 
   def options
-    @options ||= { include: %i[reviews]}
+    @options ||= { include: %i[reviews] }
   end
 end
