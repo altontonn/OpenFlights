@@ -3,17 +3,19 @@
 // of the page.
 
 import React, { StrictMode } from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
 import App from "../components/App";
 
+
 document.addEventListener("DOMContentLoaded", () => {
-  // ReactDOM.render(
-    <React.StrictMode>
+  ReactDOM.render(
+    <StrictMode>
       <Router>
-        <Route path="/" component={App} />
+        <App />
       </Router>
-    </React.StrictMode>,
+    </StrictMode>,
     document.body.appendChild(document.createElement("div"))
-  // );
+  );
 });
+

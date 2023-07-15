@@ -1,11 +1,13 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Airline from "./Airline/Airline";
+import Airlines from "./Airlines/Airlines";
 const App = () => {
   return (
-    <Switch>
-      <Route exact path='/' Component={Airlines} />
-      <Route exact path='/:slug' Component={Airlines} />
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Airlines />} />
+      <Route path="/:slug" element={<Airline />} />
+    </Routes>
   );
-}
-export default App
+};
+export default App;
