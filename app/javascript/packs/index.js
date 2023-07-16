@@ -3,10 +3,10 @@
 // of the page.
 
 import React, { StrictMode } from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
+// import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "../components/App";
-
 
 document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
@@ -18,4 +18,3 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(document.createElement("div"))
   );
 });
-
