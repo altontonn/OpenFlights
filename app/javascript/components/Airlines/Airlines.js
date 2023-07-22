@@ -3,20 +3,17 @@ import React, { useEffect, useState } from "react";
 const Airlines = () => {
   const [airlines, setAirlines] = useState([]);
   useEffect(() => {
-    axios.get("/api/v1/airlines")
-      .then((resp) => {
-        console.log(resp.data)
-        setAirlines(resp.data);
-      })
-      .catch((error) => {
-        console.log("Error fetching airlines data:", error);
-      });
+    fetchData();
   }, []);
-
-  const grid = airlines.map((airline, index) => (
-    <li key={index}>{airline.data.attributes.name}</li>
-  ));
-
+  const baseUrl = `${window.location.origin}/api/v1`;
+  const fetchData = async () => {
+    try {
+      const response = await axios.get(`${baseUrl}/airlines`);
+      setAirlines(response.data.data);
+    } catch (error) {
+      console.log('Error fetching data:', error)
+    }
+  }
   return (
     <div className="home">
       <div className="header">
@@ -27,7 +24,9 @@ const Airlines = () => {
       </div>
       <div className="grid">
         <ul>
-          {grid}
+        {airlines.map((airline, index) =>(
+          <li key={index}>{airline.attributes.name}</li>
+        ))}
         </ul>
       </div>
     </div>
