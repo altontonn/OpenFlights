@@ -17,6 +17,14 @@ const Subheader = styled.p`
   font-weight: 300;
   font-size: 26px;
 `;
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+  padding: 20px;
+`;
+
 const Airlines = () => {
   const [airlines, setAirlines] = useState([]);
   useEffect(() => {
@@ -39,13 +47,11 @@ const Airlines = () => {
           Honest, unbiased airline reviews. Share your experience.
         </Subheader>
       </Header>
-      <div className="grid">
-        <ul>
-          {airlines.map((airline, index) => (
-            <Airline key={index} attributes={airline.attributes} />
-          ))}
-        </ul>
-      </div>
+      <Grid>
+        {airlines.map((airline, index) => (
+          <Airline key={index} attributes={airline.attributes} />
+        ))}
+      </Grid>
     </Home>
   );
 };
