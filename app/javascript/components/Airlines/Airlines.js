@@ -33,6 +33,7 @@ const AirlineLogo = styled.div`
 height: 50px;
 `
 const AirlineName = styled.div`
+padding:20px;
 `
 const LinkWrapper = styled.div``
 
