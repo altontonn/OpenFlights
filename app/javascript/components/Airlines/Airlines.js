@@ -2,8 +2,20 @@ import axios from "axios";
 import { styled } from "styled-components";
 import Airline from "./Airline";
 import React, { useEffect, useState } from "react";
+
 const Home = styled.div`
   text-align: center;
+`;
+const Header = styled.div`
+  padding: 100px 100px 10px 100px;
+
+  h1 {
+    font-size: 42px;
+  }
+`;
+const Subheader = styled.p`
+  font-weight: 300;
+  font-size: 26px;
 `;
 const Airlines = () => {
   const [airlines, setAirlines] = useState([]);
@@ -21,12 +33,12 @@ const Airlines = () => {
   };
   return (
     <Home>
-      <div className="header">
+      <Header>
         <h1>OpenFlights</h1>
-        <p className="subheader">
+        <Subheader>
           Honest, unbiased airline reviews. Share your experience.
-        </p>
-      </div>
+        </Subheader>
+      </Header>
       <div className="grid">
         <ul>
           {airlines.map((airline, index) => (
