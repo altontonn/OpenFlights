@@ -24,6 +24,14 @@ const Grid = styled.div`
   width: 100%;
   padding: 20px;
 `;
+const Card = styled.div`
+border: 1px solid #efefef;
+  background: #fff;
+  font-family: sans-serif;
+`
+const AirlineLogo = styled.div``
+const AirlineName = styled.div``
+const LinkWrapper = styled.div``
 
 const Airlines = () => {
   const [airlines, setAirlines] = useState([]);
