@@ -29,8 +29,11 @@ border: 1px solid #efefef;
   background: #fff;
   font-family: sans-serif;
 `
-const AirlineLogo = styled.div``
-const AirlineName = styled.div``
+const AirlineLogo = styled.div`
+height: 50px;
+`
+const AirlineName = styled.div`
+`
 const LinkWrapper = styled.div``
 
 const Airlines = () => {
