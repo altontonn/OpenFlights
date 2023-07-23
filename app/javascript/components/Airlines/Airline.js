@@ -1,4 +1,5 @@
 import React from "react";
+import { styled } from "styled-components";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Card = styled.div`
@@ -33,15 +34,15 @@ a {
 const Airline = (props) => {
   const { name, image_url, slug } = props.attributes;
   return (
-    <div className="card">
-      <div className="airline-logo">
+    <Card>
+      <AirlineLogo>
         <img src={image_url} alt={name} width="50" />
-      </div>
-      <div className="airline-name">{name}</div>
-      <div className="link-wrapper">
+      </AirlineLogo>
+      <AirlineName>{name}</AirlineName>
+      <LinkWrapper>
         <Link to={"/" + slug}>view airline</Link>
-      </div>
-    </div>
+      </LinkWrapper>
+    </Card>
   );
 };
 export default Airline;
