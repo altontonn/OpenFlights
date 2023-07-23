@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 const Airline = (props) => {
   const {name, image_url, slug }= props.attributes;
   return (
@@ -10,7 +11,7 @@ const Airline = (props) => {
         {name}
       </div>
       <div className="link-wrapper">
-        <a href={"/" + slug}>view airline</a>
+        <Link to={"/" + slug}>view airline</Link>
       </div>
     </div>
   )

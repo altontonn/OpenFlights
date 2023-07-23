@@ -1,4 +1,5 @@
 import axios from "axios";
+import Airline from "./Airline";
 import React, { useEffect, useState } from "react";
 const Airlines = () => {
   const [airlines, setAirlines] = useState([]);
@@ -25,7 +26,10 @@ const Airlines = () => {
       <div className="grid">
         <ul>
         {airlines.map((airline, index) =>(
-          <li key={index}>{airline.attributes.name}</li>
+          <Airline
+          key={index}
+          attributes={airline.attributes}
+           />
         ))}
         </ul>
       </div>
