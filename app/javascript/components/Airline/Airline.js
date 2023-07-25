@@ -22,11 +22,6 @@ const Airline = () => {
   return (
     <div>
       <div className="column">
-        <div className="header">
-          <img src="" alt="airline-img" width="50" />
-          <h1>[airline name will go here]</h1>
-        </div>
-
         <div className="reviews">[reviews will go here]</div>
       </div>
       <div className="column">[new review form will go here]</div>
