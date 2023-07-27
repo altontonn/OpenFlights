@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { styled } from "styled-components";
-import Header from "./Header";
+import header from "./Header";
 
 const Column = styled.div`
   background: #fff;
@@ -37,7 +37,7 @@ const Airline = () => {
   return (
     <div>
       <Column>
-        {loaded && <Header attributes={airline.attributes} />}
+        {loaded && <header attributes={airline.attributes} />}
         <div className="reviews">[reviews will go here]</div>
       </Column>
       <Column>[new review form will go here]</Column>
