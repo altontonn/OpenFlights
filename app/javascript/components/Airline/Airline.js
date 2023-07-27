@@ -1,11 +1,23 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
+import { styled } from "styled-components";
 import Header from "./Header";
+
+const Column = styled.div`
+  background: #fff;
+  max-width: 50%;
+  width: 50%;
+  float: left;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  overflow: scroll;
+`;
 const Airline = () => {
-  const [ airline, setAirline ] = useState([]);
-  const [ review, setReview ] = useState([]);
-  const [ loaded, setLoaded ] = useState(false);
+  const [airline, setAirline] = useState([]);
+  const [review, setReview] = useState([]);
+  const [loaded, setLoaded] = useState(false);
   const { slug } = useParams();
   useEffect(() => {
     fetchData();
@@ -20,18 +32,15 @@ const Airline = () => {
     } catch (error) {
       console.log("Error fetching data:", error);
     }
-  }
+  };
 
   return (
     <div>
-      <div className="column">
-        {
-          loaded &&
-          <Header attributes={airline.attributes} />
-        }
+      <Column>
+        {loaded && <Header attributes={airline.attributes} />}
         <div className="reviews">[reviews will go here]</div>
-      </div>
-      <div className="column">[new review form will go here]</div>
+      </Column>
+      <Column>[new review form will go here]</Column>
     </div>
   );
 };
