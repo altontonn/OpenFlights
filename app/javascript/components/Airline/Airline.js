@@ -17,6 +17,7 @@ const Column = styled.div`
 `;
 const Airline = () => {
   const [airline, setAirline] = useState({});
+  const [reviews, setReviews] = useState([]);
   const [review, setReview] = useState({});
   const [loaded, setLoaded] = useState(false);
   const { slug } = useParams();
@@ -29,15 +30,16 @@ const Airline = () => {
     try {
       const response = await axios.get(url);
       setAirline(response.data.data);
+      setReviews(response.data.included)
       setLoaded(true);
     } catch (error) {
       console.log("Error fetching data:", error);
     }
   };
 
-  let reviews;
-  if (airlines.included && airlines.included.length > 0) {
-    reviews = airlines.included.map((review, index) => {
+  let reviewsAll;
+  if (reviews && reviews.length > 0) {
+    reviewsAll = reviews.map((review, index) => {
       return (
         <Review
           key={index}
@@ -57,7 +59,7 @@ const Airline = () => {
           <Header attributes={airline.attributes} />
         }
         <div className="reviews">
-          {reviews}
+          {reviewsAll}
         </div>
       </Column>
       <Column>
