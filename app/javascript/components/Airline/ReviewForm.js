@@ -122,10 +122,10 @@ const ReviewForm = (props) => {
     );
   });
   return (
-    <div>
+    <ReviewWrapper>
       <form onSubmit={props.handleSubmit}>
-        <div>Have An Experience with {props.name}? Add Your Review!</div>
-        <div>
+        <ReviewHeadline>Have An Experience with {props.name}? Add Your Review!</ReviewHeadline>
+        <Field>
           <input
             onChange={props.handleChange}
             type="text"
@@ -133,8 +133,8 @@ const ReviewForm = (props) => {
             placeholder="Review Title"
             props={props.review.title}
           />
-        </div>
-        <div>
+        </Field>
+        <Field>
           <input
             onChange={props.handleChange}
             type="text"
@@ -142,14 +142,16 @@ const ReviewForm = (props) => {
             placeholder="Review Description"
             props={props.review.description}
           />
-        </div>
-        <div>
-          <div>Rate This Airline</div>
-          <div>[Rating options will go here.]</div>
-        </div>
-        <button type="submit">Create Review</button>
+        </Field>
+        <Field>
+          <RatingContainer>
+            <RatingBoxTitle>Rate This Airline</RatingBoxTitle>
+            <RatingBox>{ratingOptions}</RatingBox>
+          </RatingContainer>
+        </Field>
+        <SubmitBtn type="submit">Create Review</SubmitBtn>
       </form>
-    </div>
+    </ReviewWrapper>
   );
 };
 export default ReviewForm;
