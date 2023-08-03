@@ -1,5 +1,21 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { styled } from "styled-components";
 const ReviewForm = (props) => {
+  const ratingOptions = [5, 4, 3, 2, 1].map((score, index) => {
+    return (
+      <Fragment key={index}>
+        <input
+          type="radio"
+          value={score}
+          checked={props.review.score == score}
+          onChange={() => console.log("onChange")}
+          name="rating"
+          id={`rating-${score}`}
+        />
+        <label onClick={props.setRating.bind(this, score)}></label>
+      </Fragment>
+    );
+  });
   return (
     <div>
       <form onSubmit={props.handleSubmit}>
