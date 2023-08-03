@@ -60,10 +60,10 @@ const Airline = () => {
     const airline_id = parseInt(airline.id);
     axios.post('/api/v1/reviews', { ...review, airline_id })
       .then((resp) => {
-        const included = [...airline.included, resp.data.data];
+        const included = [...airline.included, resp.data];
         setAirline({ ...airline, included });
       })
-      .catch((resp) => console.log(resp));
+      .catch(error);
   };
 
   let reviewsAll;
