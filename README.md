@@ -108,7 +108,7 @@ To get a local copy up and running, follow these steps.
     ```
     > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
 
-6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
+  6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
 
     ```shell
     $ git --version
@@ -154,7 +154,6 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  ### Usage
   * To run and test use the `email: your email` and `password: 123456`
 ```
 
