@@ -200,9 +200,7 @@ If you like this project then please give a ⭐️ and also share your feeback u
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- ❤️ [Zayne Abraham](https://zayne.io/about)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
