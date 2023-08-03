@@ -131,7 +131,6 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-
 ```sh
   cd my-folder
   git clone https://github.com/altontonn/OpenFlights.git
@@ -145,6 +144,12 @@ Install this project with:
   cd OpenFlights
   bundle install
 ```
+### Run
+  *  Change/include `host, username, password` according to your database server.
+  *  Run `rails db:create` and `rails db:migrate`
+  *  Run `rails db:seed` to enter some data into database.
+  *  Run `./bin/dev` to start the server.
+  *  In your browser, go to `http://localhost:3000`.
 
 ### Usage
 
