@@ -12,7 +12,8 @@
   white-space: nowrap;
 }
 
-.rating-wrapper::before, .rating::before {
+.rating-wrapper::before,
+.rating::before {
   font-family: "FontAwesome";
   content: "\f005 \0020 \f005 \0020 \f005 \0020 \f005 \0020 \f005";
 }
