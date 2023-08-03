@@ -160,15 +160,13 @@ To run the project, execute the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Author <a name="author"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Newton Alumasa**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [altontonn](https://github.com/altontonn/)
+- LinkedIn: [newton-alumasa](https://www.linkedin.com/in/newton-alumasa/)
+- Twitter: [AlumasaNewton](https://twitter.com/AlumasaNewton)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
