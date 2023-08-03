@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
+import Rating from "../Rating/Rating";
 const Card = styled.div`
   border-radius: 4px;
   border: 1px solid #e6e6e6;
@@ -22,9 +23,7 @@ const Review = (props) => {
       <Description>
         {props.description}
       </Description>
-      <div className="review-rating">
-        {props.score}
-      </div>
+      <Rating score={props.score} />
     </Card>
   );
 };
