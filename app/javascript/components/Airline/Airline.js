@@ -63,7 +63,7 @@ const Airline = () => {
         const included = [...airline.included, resp.data];
         setAirline({ ...airline, included });
       })
-      .catch(error);
+      .catch(resp => console.log(resp));
   };
 
   let reviewsAll;

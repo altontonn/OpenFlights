@@ -125,7 +125,7 @@ const ReviewForm = (props) => {
     <ReviewWrapper>
       <form onSubmit={props.handleSubmit}>
         <ReviewHeadline>
-          Have An Experience with {props.name}? Add Your Review!
+          Have An Experience with {props.name} ? Add Your Review!
         </ReviewHeadline>
         <Field>
           <input
