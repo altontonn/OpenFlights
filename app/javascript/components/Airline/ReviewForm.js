@@ -117,7 +117,7 @@ const ReviewForm = (props) => {
           name="rating"
           id={`rating-${score}`}
         />
-        {/* <label onClick={props.setRating.bind(this, score)}></label> */}
+        <label onClick={props.setRating.bind(this, score)}></label>
       </Fragment>
     );
   });

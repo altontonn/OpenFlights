@@ -45,6 +45,11 @@ const Airline = () => {
     }
   };
 
+  const setRating = (score, e) => {
+    e.preventDefault();
+    setReview({...review, score})
+  }
+
   const handleChange = (e) => {
     e.preventDefault();
     setReview(Object.assign({}, review, { [e.target.name]: e.target.value }));
@@ -89,6 +94,7 @@ const Airline = () => {
           review={review}
           handleChange={handleChange}
           handleSubmit={handleSubmit}
+          setRating={setRating}
         />
       </Column>
     </Wrapper>
