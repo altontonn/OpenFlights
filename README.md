@@ -148,20 +148,18 @@ Install this project with:
   *  Change/include `host, username, password` according to your database server.
   *  Run `rails db:create` and `rails db:migrate`
   *  Run `rails db:seed` to enter some data into database.
-  *  Run `./bin/dev` to start the server.
+  *  Run `rails s` to start the server.
   *  In your browser, go to `http://localhost:3000`.
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  ### Usage
+  * To run and test as admin use the `email: admin@gmail.com` and `password: 123456`
+  * To run and test as user use the `email: user@gmail.com` and `password: 123456`
 ```
---->
 
 ### Run tests
 
