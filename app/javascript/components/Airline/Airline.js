@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import { styled } from "styled-components";
 import Header from "./Header";
 import Review from "./Review";
+import ReviewForm from "./ReviewForm";
 
 const Column = styled.div`
   background: #fff;
@@ -14,6 +15,13 @@ const Column = styled.div`
   overflow-x: scroll;
   overflow-y: scroll;
   overflow: scroll;
+`;
+const Wrapper = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+`;
+const Main = styled.div`
+  padding-left: 60px;
 `;
 const Airline = () => {
   const [airline, setAirline] = useState({});
@@ -30,11 +38,27 @@ const Airline = () => {
     try {
       const response = await axios.get(url);
       setAirline(response.data.data);
-      setReviews(response.data.included)
+      setReviews(response.data.included);
       setLoaded(true);
     } catch (error) {
       console.log("Error fetching data:", error);
     }
+  };
+
+  const handleChange = (e) => {
+    e.preventDefault();
+    setReview(Object.assign({}, review, { [e.target.name]: e.target.value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const airline_id = parseInt(airline.id);
+    axios.post('/api/v1/reviews', { ...review, airline_id })
+      .then((resp) => {
+        const included = [...airline.included, resp.data.data];
+        setAirline({ ...airline, included });
+      })
+      .catch((resp) => console.log(resp));
   };
 
   let reviewsAll;
@@ -52,20 +76,22 @@ const Airline = () => {
   }
 
   return (
-    <div>
+    <Wrapper>
       <Column>
-        {
-          loaded && 
-          <Header attributes={airline.attributes} />
-        }
-        <div className="reviews">
-          {reviewsAll}
-        </div>
+        <Main>
+          {loaded && <Header attributes={airline.attributes} />}
+          <div className="reviews">{reviewsAll}</div>
+        </Main>
       </Column>
       <Column>
-        [review form will go here]
+        <ReviewForm
+          name={name}
+          review={review}
+          handleChange={handleChange}
+          handleSubmit={handleSubmit}
+        />
       </Column>
-    </div>
+    </Wrapper>
   );
 };
 export default Airline;

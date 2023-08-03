@@ -117,14 +117,16 @@ const ReviewForm = (props) => {
           name="rating"
           id={`rating-${score}`}
         />
-        <label onClick={props.setRating.bind(this, score)}></label>
+        {/* <label onClick={props.setRating.bind(this, score)}></label> */}
       </Fragment>
     );
   });
   return (
     <ReviewWrapper>
       <form onSubmit={props.handleSubmit}>
-        <ReviewHeadline>Have An Experience with {props.name}? Add Your Review!</ReviewHeadline>
+        <ReviewHeadline>
+          Have An Experience with {props.name}? Add Your Review!
+        </ReviewHeadline>
         <Field>
           <input
             onChange={props.handleChange}
@@ -138,7 +140,7 @@ const ReviewForm = (props) => {
           <input
             onChange={props.handleChange}
             type="text"
-            name="title"
+            name="description"
             placeholder="Review Description"
             props={props.review.description}
           />
