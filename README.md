@@ -199,25 +199,6 @@ If you like this project then please give a ⭐️ and also share your feeback u
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - ❤️ [Zayne Abraham](https://zayne.io/about)
-<<<<<<< HEAD
-=======
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
->>>>>>> 6766e2f (Add acknowledgment part)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
