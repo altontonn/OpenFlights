@@ -89,6 +89,7 @@ To get a local copy up and running, follow these steps.
     - Basic understanding of basic Ruby concepts.
     - Ruby fundamentals (modules, blocks, etc).
 
+
   2. Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
 
   3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html).
@@ -97,17 +98,17 @@ To get a local copy up and running, follow these steps.
 
   5. [Node and npm](https://nodejs.org/en/download/) are installed. Here are the versions I'll be using while making this tutorial:
 
-   ```sh
+   ```shell
     $ node --version
     v16.13.2
     $ npm --version
     8.1.2
     $ yarn --version
     1.22
-   ```
+    ```
     > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
 
-  6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
+6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
 
     ```shell
     $ git --version
@@ -153,6 +154,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
+  ### Usage
   * To run and test use the `email: your email` and `password: 123456`
 ```
 
@@ -172,7 +174,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Improve the application for small screen devices]**
+- [ ] **[Improve the application U for small screen devices]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
