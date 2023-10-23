@@ -167,6 +167,9 @@ Example:
 
 ## 👥 Author <a name="authors"></a>
 
+- Github: [Newton Alumasa](https://github.com/altontonn/)
+- Twitter: [Newton Alumasa](https://twitter.com/AlumasaNewton)
+- Linkedin: [Newton Alumasa](https://www.linkedin.com/in/newton-alumasa/)
 > Mention all of the collaborators of this project.
 
 👤 **Author**
