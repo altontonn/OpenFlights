@@ -44,9 +44,9 @@
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Ruby on Rails</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
