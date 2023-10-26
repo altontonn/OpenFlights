@@ -26,7 +26,7 @@
 
 # 📖 [flight-review] <a name="about-project"></a>
 
-**[your_project__name]** is a...
+**Open Flights** is a review app built with react.js and ruby on rails with webpacker
 
 ## 🛠 Built With <a name="built-with"></a>
 
