@@ -26,8 +26,6 @@
 
 # 📖 [flight-review] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
