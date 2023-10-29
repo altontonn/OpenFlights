@@ -71,7 +71,7 @@
 
 > Add a link to your deployed project.
 
-- [Not Avaialable]()
+- [Not Available]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
