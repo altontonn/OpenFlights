@@ -57,11 +57,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **A user can add flights company**
+- **A user an rate the plane company on the form section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
