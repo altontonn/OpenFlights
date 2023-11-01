@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [flight-review] <a name="about-project"></a>
+# 📖 [Open-flight] <a name="about-project"></a>
 
 **Open Flights** is a review app built with react.js and ruby on rails with webpacker
 
