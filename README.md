@@ -159,9 +159,9 @@ Example:
 ## 👥 Author <a name="authors"></a>
 👤 **Author**
 
-- Github: [Newton Alumasa](https://github.com/altontonn/)
-- Twitter: [Newton Alumasa](https://twitter.com/AlumasaNewton)
-- Linkedin: [Newton Alumasa](https://www.linkedin.com/in/newton-alumasa/)
+- [Github](https://github.com/altontonn/)
+- [Twitter](https://twitter.com/AlumasaNewton)
+- [Linkedin](https://www.linkedin.com/in/newton-alumasa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
