@@ -77,16 +77,12 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+1. before you go ahead with this project, please make sure you have:
+    - Basic understanding of HTML and CSS.
+    - JavaScript fundamentals (object, array, conditionals etc).
+    - Familiarity with JavaScript ES6 features (class syntax, arrow functions, object destructuring etc).
+    - Basic understanding of basic Ruby concepts.
+    - Ruby fundamentals (classes, modules, blocks, etc).
 
 ### Setup
 
