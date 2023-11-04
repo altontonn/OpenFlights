@@ -84,6 +84,8 @@ To get a local copy up and running, follow these steps.
     - Basic understanding of basic Ruby concepts.
     - Ruby fundamentals (classes, modules, blocks, etc).
 
+2. Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
+
 ### Setup
 
 Clone this repository to your desired folder:
