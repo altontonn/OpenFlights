@@ -88,6 +88,8 @@ To get a local copy up and running, follow these steps.
 
 3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
 
+4. Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running
+
 ### Setup
 
 Clone this repository to your desired folder:
