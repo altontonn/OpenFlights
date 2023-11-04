@@ -86,6 +86,8 @@ To get a local copy up and running, follow these steps.
 
 2. Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
 
+3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+
 ### Setup
 
 Clone this repository to your desired folder:
