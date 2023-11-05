@@ -88,7 +88,19 @@ To get a local copy up and running, follow these steps.
 
 3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
 
-4. Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running
+4. Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running.
+
+  5. [Node and npm](https://nodejs.org/en/download/) are installed. Here are the versions I'll be using while making this tutorial:
+
+    ```shell
+    $ node --version
+    v16.13.2
+    $ npm --version
+    8.1.2
+    $ yarn --version
+    1.22
+    ```
+    > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
 
 ### Setup
 
