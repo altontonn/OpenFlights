@@ -111,6 +111,14 @@ To get a local copy up and running, follow these steps.
 
 7. A [GitHub](https://github.com/signup)
 
+8. [Ruby](https://rubyinstaller.org/downloads/) are installed. Here are the versions I'll be using while making this tutorial:
+
+    ```shell
+    $ ruby --version
+    ruby 3.1.3p185 (2022-11-24 revision 1a6b16756e) [x64-mingw-ucrt]
+    ```
+    > Installing ruby add the command to the system—`irb` which we'll be using while making this tutorial.
+
 ### Setup
 
 Clone this repository to your desired folder:
