@@ -107,7 +107,9 @@ To get a local copy up and running, follow these steps.
     ```shell
     $ git --version
     git version 2.29.1.windows.1
-    ```   
+    ```
+
+7. A [GitHub](https://github.com/signup)
 
 ### Setup
 
