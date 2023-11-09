@@ -12,7 +12,7 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
+  - [Run](#run)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -150,17 +150,12 @@ Example command:
 ```
 --->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+### Run
+  *  Change/include `host, username, password` according to your database server.
+  *  Run `rails db:create` and `rails db:migrate`
+  *  Run `rails db:seed` to enter some data into database.
+  *  Run `rails a` to start the server.
+  *  In your browser, go to `http://localhost:3000`.
 
 ### Deployment
 
