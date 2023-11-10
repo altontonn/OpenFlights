@@ -142,13 +142,9 @@ Install this project with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
   rails server
 ```
---->
 
 ### Run
   *  Change/include `host, username, password` according to your database server.
