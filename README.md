@@ -195,9 +195,7 @@ If you like this project give it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Zayne Abraham for his guidance tools and documentation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
