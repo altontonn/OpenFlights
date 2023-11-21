@@ -202,6 +202,6 @@ I would like to thank Zayne Abraham for his guidance tools and documentation.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/altontonn/OpenFlights/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
