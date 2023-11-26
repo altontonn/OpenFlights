@@ -12,17 +12,17 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run](#run)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [flight-review] <a name="about-project"></a>
+# 📖 [Open-flight] <a name="about-project"></a>
 
 **[Open Flights]** is a review app to allow users to add comments and review stars on airline flights.
 
@@ -63,6 +63,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Review Rating]**
+- **A user can add flights company**
+- **A user an rate the plane company on the form section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,6 +73,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Coming soon]()
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +85,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
- 1. Before you go ahead with this project, please make sure you have:
+  1. Before you go ahead with this project, please make sure you have:
     - Basic understanding of HTML and CSS.
     - JavaScript fundamentals (object, array, conditionals etc).
     - Familiarity with JavaScript ES6 features (arrow functions, object destructuring etc).
@@ -92,13 +95,13 @@ To get a local copy up and running, follow these steps.
 
   2. Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
 
-  3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html).
+  3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
 
   4. Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running.
 
   5. [Node and npm](https://nodejs.org/en/download/) are installed. Here are the versions I'll be using while making this tutorial:
 
-   ```shell
+     ```shell
     $ node --version
     v16.13.2
     $ npm --version
@@ -107,15 +110,19 @@ To get a local copy up and running, follow these steps.
     1.22
     ```
     > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
-
-6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
+    ```sh
+      cd your-desired-folder
+      git clone https://github.com/altontonn/OpenFlights
+    ```
+ 
+  6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
 
     ```shell
     $ git --version
     git version 2.29.1.windows.1
     ```
 
-  7. A [GitHub](https://github.com/signup) account. :octocat:
+  7. A [GitHub](https://github.com/signup)
 
   8. [Ruby](https://rubyinstaller.org/downloads/) are installed. Here are the versions I'll be using while making this tutorial:
 
@@ -142,6 +149,7 @@ Install this project with:
   cd OpenFlights
   bundle install
 ```
+
 ### Run
   *  Change/include `host, username, password` according to your database server.
   *  Run `rails db:create` and `rails db:migrate`
@@ -164,9 +172,9 @@ To run the project, execute the following command:
 
 👤 **Newton Alumasa**
 
-- GitHub: [altontonn](https://github.com/altontonn/)
-- LinkedIn: [newton-alumasa](https://www.linkedin.com/in/newton-alumasa/)
-- Twitter: [AlumasaNewton](https://twitter.com/AlumasaNewton)
+- [Github](https://github.com/altontonn/)
+- [Twitter](https://twitter.com/AlumasaNewton)
+- [Linkedin](https://www.linkedin.com/in/newton-alumasa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,7 +182,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Improve the application U for small screen devices]**
+- [ ] **[Improve the application UI for small screen devices]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,7 +208,7 @@ If you like this project then please give a ⭐️ and also share your feeback u
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- ❤️ [Zayne Abraham](https://zayne.io/about)
+I would like to thank ❤️ [Zayne Abraham](https://zayne.io/about) for his guidance tools and documentation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
