@@ -24,7 +24,7 @@
 
 # 📖 [Open-flight] <a name="about-project"></a>
 
-**Open Flights** is a review app built with react.js and ruby on rails with webpacker
+**[Open Flights]** is a review app to allow users to add comments and review stars on airline flights.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,10 +51,18 @@
   </ul>
 </details>
 
+<details>
+<summary>Webpack</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
+- **[Review Rating]**
 - **A user can add flights company**
 - **A user an rate the plane company on the form section**
 
@@ -64,7 +72,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not Available]()
+- [Coming soon]()
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,22 +84,24 @@
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-1. before you go ahead with this project, please make sure you have:
+
+  1. Before you go ahead with this project, please make sure you have:
     - Basic understanding of HTML and CSS.
     - JavaScript fundamentals (object, array, conditionals etc).
-    - Familiarity with JavaScript ES6 features (class syntax, arrow functions, object destructuring etc).
+    - Familiarity with JavaScript ES6 features (arrow functions, object destructuring etc).
     - Basic understanding of basic Ruby concepts.
-    - Ruby fundamentals (classes, modules, blocks, etc).
+    - Ruby fundamentals (modules, blocks, etc).
 
-2. Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
 
-3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+  2. Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
 
-4. Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running.
+  3. Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html)
+
+  4. Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running.
 
   5. [Node and npm](https://nodejs.org/en/download/) are installed. Here are the versions I'll be using while making this tutorial:
 
-    ```shell
+     ```shell
     $ node --version
     v16.13.2
     $ npm --version
@@ -99,17 +110,21 @@ To get a local copy up and running, follow these steps.
     1.22
     ```
     > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
-
- 6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
+    ```sh
+      cd your-desired-folder
+      git clone https://github.com/altontonn/OpenFlights
+    ```
+ 
+  6. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
 
     ```shell
     $ git --version
     git version 2.29.1.windows.1
     ```
 
-7. A [GitHub](https://github.com/signup)
+  7. A [GitHub](https://github.com/signup)
 
-8. [Ruby](https://rubyinstaller.org/downloads/) are installed. Here are the versions I'll be using while making this tutorial:
+  8. [Ruby](https://rubyinstaller.org/downloads/) are installed. Here are the versions I'll be using while making this tutorial:
 
     ```shell
     $ ruby --version
@@ -122,8 +137,8 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  cd your-desired-folder
-  git clone https://github.com/altontonn/OpenFlights
+  cd my-folder
+  git clone https://github.com/altontonn/OpenFlights.git
 ```
 
 ### Install
@@ -131,32 +146,31 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd openflights
+  cd OpenFlights
   bundle install
-  yarn install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  rails server
 ```
 
 ### Run
   *  Change/include `host, username, password` according to your database server.
   *  Run `rails db:create` and `rails db:migrate`
   *  Run `rails db:seed` to enter some data into database.
-  *  Run `rails a` to start the server.
+  *  Run `rails s` to start the server.
   *  In your browser, go to `http://localhost:3000`.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  ### Usage
+  * To run and test use the `email: your email` and `password: 123456`
+```
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
-👤 **Author**
+## 👥 Author <a name="author"></a>
+
+👤 **Newton Alumasa**
 
 - [Github](https://github.com/altontonn/)
 - [Twitter](https://twitter.com/AlumasaNewton)
@@ -168,7 +182,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **improve the application UI**
+- [ ] **[Improve the application UI for small screen devices]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,7 +200,7 @@ Feel free to check the [issues page](https://github.com/altontonn/OpenFlights/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give it a ⭐️.
+If you like this project then please give a ⭐️ and also share your feeback using github issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +208,7 @@ If you like this project give it a ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Zayne Abraham for his guidance tools and documentation.
+I would like to thank ❤️ [Zayne Abraham](https://zayne.io/about) for his guidance tools and documentation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
